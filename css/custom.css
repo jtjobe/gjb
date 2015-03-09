@@ -1,1 +1,71 @@
-custom.css
+.html
+{
+  background-image: url("imgs/crossword.jpg") repeat left top scroll;
+}
+
+header {
+  display: block;
+  background-color: #006666;
+  height: 5em;
+  transition: all 0.4s ease;
+}
+
+.dropdown-nav {
+  padding: 1.3em;
+  float: left;
+}
+
+.dropdown-logo-col {
+  display: block;
+  width: 10em;
+  margin: auto;
+  padding: 1em;
+}
+
+.dropdown-logo {
+  width: 8em;
+}
+
+.full-nav {
+  display: none;
+}
+
+body {
+  display: block;
+  height: 100em;
+  background-image: url('../imgs/crossword.jpg');
+  background-repeat: repeat;
+}
+/***********************************************************************
+*/
+
+@media (min-width: 500px) {
+
+header {
+  background-color: transparent;
+  transition: all 0.4s ease;
+}
+
+.small-nav {
+  display: none;
+}
+
+.full-nav {
+  display: block;
+}
+
+.logo-col {
+
+}
+
+.nav-col {
+  background-image: url("imgs/crossword.jpg") repeat left top scroll;
+}
+
+}
+
+.nav-link {
+
+}
+
+}
