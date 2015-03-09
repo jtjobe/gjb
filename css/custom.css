@@ -3,15 +3,15 @@
   background-image: url("imgs/crossword.jpg") repeat left top scroll;
 }
 
-header {
-  display: block;
+.small-nav {
+  position: fixed;
+  width: 100%;
   background-color: #006666;
-  height: 5em;
-  transition: all 0.4s ease;
+  box-shadow: 0 5px 5px -5px #006666;
 }
 
 .dropdown-nav {
-  padding: 1.3em;
+  padding: 1.5em;
   float: left;
 }
 
@@ -39,7 +39,7 @@ body {
 /***********************************************************************
 */
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
 
 header {
   background-color: transparent;
