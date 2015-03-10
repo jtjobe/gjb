@@ -39,7 +39,7 @@ body {
 }
 
 .container {
-  padding-top: 7em;
+  padding-top: 15em;
 }
 
 h2, p {
@@ -61,12 +61,33 @@ p {
 
 .full-nav {
   display: block;
+  position: fixed;
+  width: 100%;
   transition: all 0.4s ease;
   box-shadow: 0 5px 5px -5px #006666;
 }
 
+.full-nav-inner-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.full-nav-sticky {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 5em;
+  background-image: url('../imgs/crossword.jpg');
+  background-repeat: repeat;
+}
+
 .logo-col {
   display: block;
+}
+
+.logo-col-sticky {
+  display: inline-block;
+  width: 22%;
 }
 
 .logo-container {
@@ -74,13 +95,27 @@ p {
   margin: auto;
 }
 
+.logo-container-sticky {
+  width: 100%;
+}
+
 .logo {
   padding: 1em;
   width: 261px;
 }
 
+.logo-sticky {
+  width: 150px;
+  padding-left: 2em;
+}
+
 .nav-col {
   display: block;
+}
+
+.nav-col-sticky {
+  display: inline-block;
+  width: 77%;
 }
 
 .nav-container {
@@ -94,6 +129,10 @@ p {
   display: inline-block;
   padding-left: 7%;
   font-size: 1.5em;
+}
+
+.nav-link-sticky {
+  padding-left: 5%;
 }
 
 .home-row {
@@ -156,6 +195,14 @@ p {
   padding-left: 8%;
 }
 
+.nav-link-sticky {
+  padding-left: 5%;
+}
+
+.home-link-sticky {
+  margin-left: 1em;
+}
+
 }
 
 /***********************************************************************
@@ -167,6 +214,14 @@ p {
   padding-left: 9%;
 }
 
+.nav-link-sticky {
+  padding-left: 5%;
+}
+
+.home-link-sticky {
+  margin-left: 2em;
+}
+
 }
 
 /***********************************************************************
@@ -174,8 +229,8 @@ p {
 
 @media (min-width: 800px) {
 
-.full-nav {
-  padding: 1em 0 1em;
+.full-nav-sticky {
+  height: 5.4em;
 }
 
 .logo-col {
@@ -183,9 +238,18 @@ p {
   width: 37%;
 }
 
+.logo-col-sticky {
+  display: inline-block;
+  width: 22%;
+}
+
 .logo-container {
   width: 261px;
   margin: auto;
+}
+
+.logo-container-sticky {
+  margin: 0;
 }
 
 .logo {
@@ -193,13 +257,20 @@ p {
   width: 261px;
 }
 
+.logo-sticky {
+  width: 150px;
+  padding-left: 2em;
+  margin-left: 1em;
+}
+
 .nav-col {
   display: inline-block;
   width: 60%;
 }
 
-.nav-container {
-  margin: 0;
+.nav-col-sticky {
+  display: inline-block;
+  width: 77%;
 }
 
 .nav-link {
@@ -207,6 +278,14 @@ p {
   padding-top: 10px;
   padding-left: 4%;
   font-size: 1.5em;
+}
+
+.nav-link-sticky {
+  padding-left: 5%;
+}
+
+.home-link-sticky {
+  margin-left: 3em;
 }
 
 }
@@ -217,6 +296,10 @@ p {
 @media (min-width: 850px) {
 
 .nav-link {
+  padding-left: 5%;
+}
+
+.nav-link-sticky {
   padding-left: 5%;
 }
 
@@ -231,6 +314,10 @@ p {
   padding-left: 6%;
 }
 
+.nav-link-sticky {
+  padding-left: 5%;
+}
+
 }
 
 /***********************************************************************
@@ -240,6 +327,18 @@ p {
 
 .nav-link {
   padding-left: 7%;
+}
+
+.nav-link-sticky {
+  padding-left: 5%;
+}
+
+.home-link {
+  padding-left: 2em;
+}
+
+.home-link-sticky {
+  padding-left: 5em;
 }
 
 }
