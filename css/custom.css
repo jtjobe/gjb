@@ -1,6 +1,13 @@
-.html
-{
-  background-image: url("imgs/crossword.jpg") repeat left top scroll;
+* {
+  font-family: 'Fanwood Text';
+  color: #006666;
+}
+
+body {
+  display: block;
+  height: 100em;
+  background-image: url('../imgs/crossword.jpg');
+  background-repeat: repeat;
 }
 
 .small-nav {
@@ -8,6 +15,7 @@
   width: 100%;
   background-color: #006666;
   box-shadow: 0 5px 5px -5px #006666;
+  z-index: 1;
 }
 
 .dropdown-nav {
@@ -30,21 +38,22 @@
   display: none;
 }
 
-body {
-  display: block;
-  height: 100em;
-  background-image: url('../imgs/crossword.jpg');
-  background-repeat: repeat;
+.container {
+  padding-top: 7em;
 }
+
+h2, p {
+  text-align: center;
+}
+
+p {
+  font-size: 1.4em;
+}
+
 /***********************************************************************
 */
 
-@media (min-width: 600px) {
-
-header {
-  background-color: transparent;
-  transition: all 0.4s ease;
-}
+@media (min-width: 650px) {
 
 .small-nav {
   display: none;
@@ -52,20 +61,185 @@ header {
 
 .full-nav {
   display: block;
+  transition: all 0.4s ease;
+  box-shadow: 0 5px 5px -5px #006666;
 }
 
 .logo-col {
+  display: block;
+}
 
+.logo-container {
+  width: 261px;
+  margin: auto;
+}
+
+.logo {
+  padding: 1em;
+  width: 261px;
 }
 
 .nav-col {
-  background-image: url("imgs/crossword.jpg") repeat left top scroll;
+  display: block;
 }
 
+.nav-container {
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding: 1em 0 1em;
 }
 
 .nav-link {
+  display: inline-block;
+  padding-left: 7%;
+  font-size: 1.5em;
+}
 
+.home-row {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.home-pic {
+  border: 1px solid #006666;
+}
+
+.top-text {
+  display: inline-block;
+  width: 40%;
+}
+
+.top-photo {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  float: right;
+}
+
+.middle-text {
+  display: inline-block;
+  width: 40%;
+}
+
+.middle-photo {
+  display: inline-block;
+  height: 100%;
+  float: left;
+}
+
+.middle-pic {
+  height: 1%;
+}
+
+.bottom-text {
+  display: inline-block;
+  width: 40%;
+}
+
+.bottom-photo {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+  float: right;
+}
+
+}
+
+/***********************************************************************
+*/
+
+@media (min-width: 700px) {
+
+.nav-link {
+  padding-left: 8%;
+}
+
+}
+
+/***********************************************************************
+*/
+
+@media (min-width: 750px) {
+
+.nav-link {
+  padding-left: 9%;
+}
+
+}
+
+/***********************************************************************
+*/
+
+@media (min-width: 800px) {
+
+.full-nav {
+  padding: 1em 0 1em;
+}
+
+.logo-col {
+  display: inline-block;
+  width: 37%;
+}
+
+.logo-container {
+  width: 261px;
+  margin: auto;
+}
+
+.logo {
+  padding: 1em;
+  width: 261px;
+}
+
+.nav-col {
+  display: inline-block;
+  width: 60%;
+}
+
+.nav-container {
+  margin: 0;
+}
+
+.nav-link {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 4%;
+  font-size: 1.5em;
+}
+
+}
+
+/***********************************************************************
+*/
+
+@media (min-width: 850px) {
+
+.nav-link {
+  padding-left: 5%;
+}
+
+}
+
+/***********************************************************************
+*/
+
+@media (min-width: 900px) {
+
+.nav-link {
+  padding-left: 6%;
+}
+
+}
+
+/***********************************************************************
+*/
+
+@media (min-width: 1000px) {
+
+.nav-link {
+  padding-left: 7%;
 }
 
 }
