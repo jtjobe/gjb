@@ -84,7 +84,8 @@ li a:hover {
 }
 
 .outline-pic {
-  width: 340px;
+  width: 100%;
+  max-width: 340px;
   margin: auto;
   padding-bottom: 1em;
 }
@@ -101,11 +102,11 @@ li a:hover {
   background-color: #006666;
   text-align: center;
   color: #fff;
-  font-size: 1.7em;
-  width: 66%;
+  font-size: 1.5em;
+  width: 80%;
   margin: auto;
-  padding: 1em;
-  margin: 2em auto;
+  padding: 0.5em;
+  margin: 1em auto;
 }
 
 
