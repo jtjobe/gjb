@@ -39,7 +39,7 @@ body {
 }
 
 .container {
-  padding-top: 7em;
+  padding-top: 6em;
 }
 
 h2, p {
@@ -96,6 +96,11 @@ li a:hover {
   margin: auto;
 }
 
+.ornament {
+  width: 35px;
+  padding: 1em 0;
+}
+
 .mobile-cta-top {
   display: block;
   border: 1px solid;
@@ -108,6 +113,31 @@ li a:hover {
   margin: auto;
   padding: 0.5em;
   margin: 1em auto;
+}
+
+.footer-container {
+  display: block;
+  width: 300px;
+  margin: auto;
+  padding-top: 1em;
+}
+
+.home-row {
+  display: block;
+  width: 95%;
+}
+
+.footer-links {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  padding: 0 0.45em;
+}
+
+.fine-print {
+  text-align: center;
+  font-size: 0.8em;
 }
 
 
