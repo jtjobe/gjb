@@ -79,7 +79,8 @@ li a:hover {
 
 .pic-inner-container {
   display: block;
-  width: 340px;
+  width: 100%;
+  max-width: 340px;
   margin: auto;
 }
 
