@@ -46,8 +46,26 @@ h2, p {
   text-align: center;
 }
 
-p {
+p, li {
   font-size: 1.4em;
+}
+
+li {
+  line-height: 2.5em;
+  text-align: center;
+}
+
+li a {
+  color: #006666;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: #006666;
+}
+
+.dropdown-button {
+  height: 2.5em;
 }
 
 /***********************************************************************
