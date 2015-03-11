@@ -39,7 +39,7 @@ body {
 }
 
 .container {
-  padding-top: 15em;
+  padding-top: 7em;
 }
 
 h2, p {
@@ -67,6 +67,47 @@ li a:hover {
 .dropdown-button {
   height: 2.5em;
 }
+
+.home-pic {
+  display: none;
+}
+
+.pic-outer-container {
+  display: block;
+  width: 100%;
+}
+
+.pic-inner-container {
+  display: block;
+  width: 340px;
+  margin: auto;
+}
+
+.outline-pic {
+  width: 340px;
+  margin: auto;
+  padding-bottom: 1em;
+}
+
+.centered-pic {
+  display: block;
+  margin: auto;
+}
+
+.mobile-cta-top {
+  display: block;
+  border: 1px solid;
+  border-radius: 2px;
+  background-color: #006666;
+  text-align: center;
+  color: #fff;
+  font-size: 1.7em;
+  width: 66%;
+  margin: auto;
+  padding: 1em;
+  margin: 2em auto;
+}
+
 
 /***********************************************************************
 */
@@ -160,6 +201,7 @@ li a:hover {
 }
 
 .home-pic {
+  display: inline-block;
   border: 1px solid #006666;
 }
 
