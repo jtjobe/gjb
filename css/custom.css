@@ -23,6 +23,30 @@ body {
   float: left;
 }
 
+.dropdown-toggle {
+  background-color: #006666;
+  border: none;
+}
+
+.dropdown-toggle:hover {
+  background-color: #006666;
+}
+
+.dropdown-toggle:active {
+  background-color: #006666;
+}
+
+.dropdown-toggle:visited {
+  background-color: #006666;
+}
+
+.glyphicon {
+  color: #fff;
+}
+
+.glyphicon-menu-hamburger {
+}
+
 .dropdown-logo-col {
   display: block;
   width: 10em;
