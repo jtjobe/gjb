@@ -1,5 +1,5 @@
 $(window).scroll(function() {
-if ($(this).scrollTop() > 10){  
+  if ($(this).scrollTop() > 10){  
     $('.full-nav').addClass('full-nav-sticky');
     $('.logo-col').addClass('logo-col-sticky');
     $('.logo').addClass('logo-sticky');
@@ -18,6 +18,4 @@ if ($(this).scrollTop() > 10){
     $('.home-link').removeClass('home-link-sticky');
   }
 });
-
-
 

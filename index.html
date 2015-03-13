@@ -5,13 +5,9 @@
     <title>Gary Jobe Builder</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Gary Jobe Builder">
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <script src="js/custom.js"></script>
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link type="text/css" rel="Stylesheet" href="css/bjqs.css" />
     <link href="css/custom.css" rel="stylesheet">
 
     <link href='http://fonts.googleapis.com/css?family=Fanwood+Text:400' rel='stylesheet' type='text/css'>
@@ -103,6 +99,19 @@
   <img src="imgs/center-ornament.png" class="centered-pic ornament">
 </div>
 
+<div id="slideshow">
+  <ul class="bjqs">
+    <li><img src="imgs/slideshow/1.jpg" class="slideshow-pic"></li>
+    <li><img src="imgs/slideshow/2.jpg" class="slideshow-pic"></li>
+    <li><img src="imgs/slideshow/3.jpg" class="slideshow-pic"></li>
+    <li><img src="imgs/slideshow/4.jpg" class="slideshow-pic"></li>
+    <li><img src="imgs/slideshow/5.jpg" class="slideshow-pic"></li>
+    <li><img src="imgs/slideshow/6.jpg" class="slideshow-pic"></li>
+    <li><img src="imgs/slideshow/7.jpg" class="slideshow-pic"></li>
+  </ul>
+</div>
+
+
 <div class="home-row">
   <div class="top-text">
     <h2>A Tradition of Excellence</h2>
@@ -168,7 +177,22 @@
 
 
 
-
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="js/bjqs.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function($) {
+      $('#slideshow').bjqs({
+          'width' : 500,
+          'responsive' : true,
+          'prevtext' : '<span class="glyphicon glyphicon-chevron-left glyphicon-slideshow">',
+          'nexttext' : '<span class="glyphicon glyphicon-chevron-right glyphicon-slideshow">',
+          'usecaptions' : 'false',
+          'showmarkers' : 'false'
+        });
+    });
+  </script>
 
   
 

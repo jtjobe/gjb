@@ -26,18 +26,7 @@ body {
 .dropdown-toggle {
   background-color: #006666;
   border: none;
-}
-
-.dropdown-toggle:hover {
-  background-color: #006666;
-}
-
-.dropdown-toggle:active {
-  background-color: #006666;
-}
-
-.dropdown-toggle:visited {
-  background-color: #006666;
+  border-radius: 0;
 }
 
 .glyphicon {
@@ -164,6 +153,24 @@ li a:hover {
   font-size: 0.8em;
 }
 
+#slideshow {
+  display: block;
+  height: 100px;
+}
+
+ol {
+  display: none;
+}
+
+.slideshow-pic {
+  border-radius: 2px;
+  padding: 0.5em;
+  padding-bottom: 1em;
+}
+
+.glyphicon-slideshow {
+  color: #006666;
+}
 
 /***********************************************************************
 */
