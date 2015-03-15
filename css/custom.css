@@ -14,8 +14,8 @@ body {
   position: fixed;
   width: 100%;
   background-color: #006666;
-  box-shadow: 0 5px 5px -5px #006666;
-  z-index: 1;
+  box-shadow: 0 5px 5px -5px #000;
+  z-index: 90000000;
 }
 
 .dropdown-nav {
@@ -29,11 +29,8 @@ body {
   border-radius: 0;
 }
 
-.glyphicon {
-  color: #fff;
-}
-
 .glyphicon-menu-hamburger {
+  color: #fff;
 }
 
 .dropdown-logo-col {
@@ -138,6 +135,7 @@ li a:hover {
 .home-row {
   display: block;
   width: 95%;
+  margin: auto;
 }
 
 .footer-links {
@@ -162,14 +160,25 @@ ol {
   display: none;
 }
 
+.slide {
+  display: block;
+  width: 100%;
+  height: 300px;
+}
+
 .slideshow-pic {
-  border-radius: 2px;
-  padding: 0.5em;
-  padding-bottom: 1em;
+  width: 90%;
+  margin: auto;
 }
 
 .glyphicon-slideshow {
   color: #006666;
+}
+
+.view-full-gallery {
+  text-align: right;
+  margin-right: 1em;
+  font-size: 0.9em;
 }
 
 /***********************************************************************

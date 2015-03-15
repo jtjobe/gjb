@@ -22,17 +22,17 @@ ul.bjqs-controls {
 }
 
 ul.bjqs-controls.v-centered li a {
-  position:absolute;
+  position: absolute;
 }
 
 ul.bjqs-controls.v-centered li.bjqs-next a {
-  margin-top: 20px;
-  right: -10px;
+  right: 0;
+  margin-top: 35%;
 }
 
 ul.bjqs-controls.v-centered li.bjqs-prev a {
-  margin-top: 20px;
-  left: -10px;
+  left: 0;
+  margin-top: 35%;
 }
 
 ol.bjqs-markers {

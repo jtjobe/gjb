@@ -101,16 +101,17 @@
 
 <div id="slideshow">
   <ul class="bjqs">
-    <li><img src="imgs/slideshow/1.jpg" class="slideshow-pic"></li>
-    <li><img src="imgs/slideshow/2.jpg" class="slideshow-pic"></li>
-    <li><img src="imgs/slideshow/3.jpg" class="slideshow-pic"></li>
-    <li><img src="imgs/slideshow/4.jpg" class="slideshow-pic"></li>
-    <li><img src="imgs/slideshow/5.jpg" class="slideshow-pic"></li>
-    <li><img src="imgs/slideshow/6.jpg" class="slideshow-pic"></li>
-    <li><img src="imgs/slideshow/7.jpg" class="slideshow-pic"></li>
+    <li><div class="slide"><img src="imgs/slideshow/1.jpg" class="slideshow-pic"></div></li>
+    <li><div class="slide"><img src="imgs/slideshow/2.jpg" class="slideshow-pic"></div></li>
+    <li><div class="slide"><img src="imgs/slideshow/3.jpg" class="slideshow-pic"></div></li>
+    <li><div class="slide"><img src="imgs/slideshow/4.jpg" class="slideshow-pic"></div></li>
+    <li><div class="slide"><img src="imgs/slideshow/5.jpg" class="slideshow-pic"></div></li>
+    <li><div class="slide"><img src="imgs/slideshow/6.jpg" class="slideshow-pic"></div></li>
+    <li><div class="slide"><img src="imgs/slideshow/7.jpg" class="slideshow-pic"></div></li>
   </ul>
 </div>
 
+<p class="view-full-gallery">View full gallery</p>
 
 <div class="home-row">
   <div class="top-text">
@@ -165,7 +166,7 @@
 <div class="home-row">
   <div class="footer-container">
     <p class="fine-print"> &copy 2015 Gary Jobe Builder</p>
-    <p class="fine-print">Web Design by J.T. Jobe</p>
+    <p class="fine-print">Designed and maintained by J.T. Jobe</p>
   </div>
 </div>
 
@@ -184,12 +185,11 @@
   <script type="text/javascript">
     jQuery(document).ready(function($) {
       $('#slideshow').bjqs({
-          'width' : 500,
-          'responsive' : true,
-          'prevtext' : '<span class="glyphicon glyphicon-chevron-left glyphicon-slideshow">',
-          'nexttext' : '<span class="glyphicon glyphicon-chevron-right glyphicon-slideshow">',
-          'usecaptions' : 'false',
-          'showmarkers' : 'false'
+          width: 600,        
+          responsive: true,
+          showcontrols: false,
+          usecaptions: false,
+          showmarkers: false
         });
     });
   </script>
