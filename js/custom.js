@@ -7,6 +7,7 @@ $(window).scroll(function() {
     $('.nav-col').addClass('nav-col-sticky');
     $('.nav-link').addClass('nav-link-sticky')
     $('.home-link').addClass('home-link-sticky');
+    $('.container').addClass('container-sticky');
   }
   else{
     $('.full-nav').removeClass('full-nav-sticky');
@@ -16,6 +17,7 @@ $(window).scroll(function() {
     $('.nav-col').removeClass('nav-col-sticky');
     $('.nav-link').removeClass('nav-link-sticky')
     $('.home-link').removeClass('home-link-sticky');
+    $('.container').removeClass('container-sticky');
   }
 });
 

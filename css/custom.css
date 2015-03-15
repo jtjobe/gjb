@@ -10,6 +10,11 @@ body {
   background-repeat: repeat;
 }
 
+.container {
+  display: block;
+  width: 90%;
+}
+
 .small-nav {
   position: fixed;
   width: 100%;
@@ -49,15 +54,25 @@ body {
 }
 
 .container {
-  padding-top: 6em;
+  padding-top: 7em;
 }
 
-h2, p {
+p, h2 {
   text-align: center;
+}
+
+p {
+  max-width: 650px;
 }
 
 p, li {
   font-size: 1.4em;
+}
+
+.text-block {
+  display: block;
+  width: 90%;
+  margin: auto;
 }
 
 li {
@@ -111,7 +126,7 @@ li a:hover {
   padding: 1em 0;
 }
 
-.mobile-cta-top {
+.mobile-cta {
   display: block;
   border: 1px solid;
   border-radius: 2px;
@@ -120,6 +135,7 @@ li a:hover {
   color: #fff;
   font-size: 1.5em;
   width: 80%;
+  max-width: 500px;
   margin: auto;
   padding: 0.5em;
   margin: 1em auto;
@@ -134,8 +150,6 @@ li a:hover {
 
 .home-row {
   display: block;
-  width: 95%;
-  margin: auto;
 }
 
 .footer-links {
@@ -156,6 +170,10 @@ li a:hover {
   height: 100px;
 }
 
+.slideshow-big {
+  display: none;
+}
+
 ol {
   display: none;
 }
@@ -171,15 +189,44 @@ ol {
   margin: auto;
 }
 
-.glyphicon-slideshow {
-  color: #006666;
-}
-
 .view-full-gallery {
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding-top: 0.5em;
   text-align: right;
-  margin-right: 1em;
   font-size: 0.9em;
 }
+
+.tradition-header-inner-container {
+  width: 362px;
+  padding: 0 1em;
+  margin: auto;
+  background-image: url('../imgs/crossword.jpg');
+  background-repeat: repeat;
+}
+
+.tradition-line {
+  border: none;
+}
+
+.tradition-top {
+  display: inline;
+  padding: 0 0.5em;
+  line-height: 40px;
+  font-family: "Bilbo Swash Caps";
+}
+
+.header-ornament-left {
+  vertical-align: top;
+  margin-top: 10px;
+}
+
+.header-ornament-right {
+  vertical-align: top;
+  margin-top: 10px;
+}
+
 
 /***********************************************************************
 */
@@ -210,6 +257,8 @@ ol {
   height: 5em;
   background-image: url('../imgs/crossword.jpg');
   background-repeat: repeat;
+  transition: all 0.4s ease;
+  z-index: 100;
 }
 
 .logo-col {
@@ -266,54 +315,103 @@ ol {
   padding-left: 5%;
 }
 
-.home-row {
-  display: block;
-  width: 80%;
-  margin: auto;
+.container {
+  padding-top: 16em;
 }
 
-.home-pic {
-  display: inline-block;
-  border: 1px solid #006666;
+.container-sticky {
+  padding-top: 9em;
+}
+
+.big-a {
+  font-size: 2em;
+  line-height: 1.0em;
+}
+
+.view-full-gallery {
+  display: none;
 }
 
 .top-text {
-  display: inline-block;
-  width: 40%;
-}
-
-.top-photo {
-  display: inline-block;
-  width: 50%;
-  vertical-align: top;
-  float: right;
+  display: block;
+  width: 90%;
+  margin: auto;
+  text-align: center;
 }
 
 .middle-text {
-  display: inline-block;
-  width: 40%;
-}
-
-.middle-photo {
-  display: inline-block;
-  height: 100%;
-  float: left;
-}
-
-.middle-pic {
-  height: 1%;
+  display: block;
+  width: 90%;
+  margin: auto;
 }
 
 .bottom-text {
-  display: inline-block;
-  width: 40%;
+  display: block;
+  width: 90%;
+  margin: auto;
 }
 
-.bottom-photo {
-  display: inline-block;
-  width: 50%;
+.slideshow-small {
+  display: none;
+}
+
+.slideshow-big {
+  display: block;
+}
+
+.slide {
+  display: block;
+  width: 100%;
+}
+
+.slideshow-pic {
+  width: 90%;
+  max-width: 700px;
+  margin: 1em;
+}
+
+.outline-pic {
+  display: none;
+}
+
+.tradition-header-container {
+  display: block;
+  height: 40px;
+  width: 90%;
+  max-width: 700px;
+  margin-top: 1em;
+  margin: auto;
+}
+
+.tradition-header-inner-container {
+  width: 362px;
+  padding: 0 1em;
+  margin: auto;
+  background-image: url('../imgs/crossword.jpg');
+  background-repeat: repeat;
+}
+
+.tradition-line {
+  height: 20px;
+  border-bottom: 1px solid #006666;
+  max-width: 800px;
+}
+
+.tradition-top {
+  display: inline;
+  padding: 0 0.5em;
+  line-height: 40px;
+  font-family: "Bilbo Swash Caps";
+}
+
+.header-ornament-left {
   vertical-align: top;
-  float: right;
+  margin-top: 10px;
+}
+
+.header-ornament-right {
+  vertical-align: top;
+  margin-top: 10px;
 }
 
 }
@@ -360,6 +458,10 @@ ol {
 */
 
 @media (min-width: 800px) {
+
+.container {
+  padding-top: 12em;
+}
 
 .full-nav-sticky {
   height: 5.4em;
@@ -450,7 +552,6 @@ ol {
   padding-left: 5%;
 }
 
-}
 
 /***********************************************************************
 */
@@ -471,6 +572,64 @@ ol {
 
 .home-link-sticky {
   padding-left: 5em;
+}
+
+.home-row {
+  width: 850px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: auto;
+}
+
+.home-pic {
+  display: inline-block;
+}
+
+div h2, p {
+  text-align: left;
+}
+
+.top-text {
+  display: inline-block;
+  margin-top: 1em;
+  width: 350px;
+}
+
+.top-photo {
+  vertical-align: top;
+  width: 374px;
+  border: 1px solid #006666;
+  border-radius: 2px;
+  float: right;
+}
+
+.middle-text {
+  display: inline-block;
+  margin-top: 2em;
+  width: 374px;
+  float: right;
+}
+
+.middle-photo {
+  vertical-align: top;
+  width: 312px;
+  border: 1px solid #006666;
+  border-radius: 2px;
+  margin: auto;
+}
+
+.bottom-text {
+  display: inline-block;
+  margin-top: 1em;
+  width: 350px;
+}
+
+.bottom-photo {
+  vertical-align: top;
+  width: 371px;
+  border: 1px solid #006666;
+  border-radius: 2px;
+  float: right;
 }
 
 }
