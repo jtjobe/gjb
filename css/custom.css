@@ -236,6 +236,45 @@ ol {
   display: none;
 }
 
+.mobile-footer-row {
+  background-color: #006666;
+  height: 80px;
+  border: 1px solid #fff;
+  border-bottom: 0;
+}
+
+.mobile-footer-row p {
+  color: #fff;
+  line-height: 80px;
+}
+
+.contact-icon {
+  color: #fff;
+}
+
+p.glyph {
+  margin: 0;
+}
+
+.contact-icon {
+  color: #EAF8BF;
+}
+
+.mobile-phone-icon {
+  position: relative;
+  right: 100px;
+}
+
+.mobile-mail-icon {
+  position: relative;
+  right: 45px;
+}
+
+.mobile-map-icon {
+  position: relative;
+  right: 20px;
+}
+
 
 /***********************************************************************
 */
