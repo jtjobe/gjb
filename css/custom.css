@@ -159,21 +159,7 @@ li a:hover {
   padding: 0 0.45em;
 }
 
-.fine-print {
-  text-align: center;
-  font-size: 0.8em;
-}
-
-#slideshow {
-  display: block;
-  height: 100px;
-}
-
 .slideshow-big {
-  display: none;
-}
-
-ol {
   display: none;
 }
 
@@ -272,10 +258,16 @@ ol {
   padding: 1em 0;
 }
 
+.mobile-fine-print-inner-container {
+  width: 200px;
+  margin: auto;
+}
+
 .mobile-fine-print-row p {
   color: #fff;
   font-size: 0.7em;
 }
+
 
 
 
@@ -409,16 +401,14 @@ ol {
 
 .slideshow-big {
   display: block;
-  width: 700px;
-  height: 400px;
+  width: 90%;
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
 .slideshow-pic-big {
-  width: 700px;
-  height: 400px;
+  width: 100%;
   margin: auto;
 }
 
@@ -474,6 +464,56 @@ ol {
 .header-ornament-right {
   vertical-align: top;
   margin-top: 10px;
+}
+
+.mobile-footer {
+  display: none;
+}
+
+.full-footer {
+  display: block;
+  background-color: #006666;
+  padding-bottom: 1em;
+}
+
+.footer-row {
+  width: 600px;
+  margin: auto;
+  padding-top: 2em;
+}
+
+.footer-logo-col {
+  display: inline-block;
+  margin-right: 3em;
+}
+
+.footer-logo {
+  width: 170px;
+  position: relative;
+  top: -20px;
+}
+
+.footer-contact-info-col {
+  display: inline-block;
+  padding: 1em 2.5em;
+}
+
+.footer-contact-info-col p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+p.glyph {
+  font-size: 1.8em;
+  margin: auto;
+}
+
+.contact-icon {
+  color: #fff;
+}
+
+.footer-text-info-col {
+  display: none;
 }
 
 }
@@ -757,6 +797,7 @@ div p, h2 {
 .footer-row {
   width: 800px;
   margin: auto;
+  padding-top: 0;
 }
 
 .footer-logo-col {
@@ -772,7 +813,7 @@ div p, h2 {
 
 .footer-contact-info-col {
   display: inline-block;
-  padding: 1em 2em;
+  padding: 1em 2.5em;
 }
 
 .footer-contact-info-col p {
@@ -789,21 +830,18 @@ p.glyph {
   color: #fff;
 }
 
-.map {
+.footer-text-info-col {
+  display: inline-block;
   position: relative;
-  top: 24px;
-  padding-bottom: 0;
+  left: 50px;
+  top: 20px;
 }
 
-.fine-print {
-  display: none;
+p.footer-info {
+  color: #fff;
+  font-size: 1em;
+  text-align: right;
 }
-
-.last-footer-row {
-  height: 1px;
-  padding: none;
-}
-
 
 
 }
