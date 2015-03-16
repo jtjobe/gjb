@@ -7,6 +7,8 @@ ul.bjqs  {
   margin:0;
   overflow:hidden; 
   display:none;
+  border: 1px solid #006666;
+  border-radius: 2px;
 }
 
 li.bjqs-slide {

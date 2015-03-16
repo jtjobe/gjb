@@ -266,6 +266,18 @@ ol {
   font-size: 1em;
 }
 
+.mobile-fine-print-row {
+  background-color: #006666;
+  border: 1px solid black;
+  padding: 1em 0;
+}
+
+.mobile-fine-print-row p {
+  color: #fff;
+  font-size: 0.7em;
+}
+
+
 
 
 /***********************************************************************
