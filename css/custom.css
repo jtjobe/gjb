@@ -574,8 +574,25 @@ ol {
   padding-left: 5em;
 }
 
+.side-ornament {
+  display: inline-block;
+}
+
+.center-ornament {
+  margin: auto;
+}
+
+.full-line {
+  display: inline-block;
+  vertical-align: top;
+  height: 11px;
+  width: 724px;
+  margin: auto;
+  border-bottom: 1px solid #006666;
+}
+
 .home-row {
-  width: 850px;
+  width: 800px;
   padding-top: 2em;
   padding-bottom: 2em;
   margin: auto;
@@ -585,8 +602,8 @@ ol {
   display: inline-block;
 }
 
-div h2, p {
-  text-align: left;
+div p, h2 {
+  text-align: center;
 }
 
 .top-text {
@@ -596,11 +613,11 @@ div h2, p {
 }
 
 .top-photo {
-  vertical-align: top;
   width: 374px;
   border: 1px solid #006666;
   border-radius: 2px;
   float: right;
+  margin-top: -7px;
 }
 
 .middle-text {
@@ -611,7 +628,6 @@ div h2, p {
 }
 
 .middle-photo {
-  vertical-align: top;
   width: 312px;
   border: 1px solid #006666;
   border-radius: 2px;
@@ -625,11 +641,11 @@ div h2, p {
 }
 
 .bottom-photo {
-  vertical-align: top;
   width: 371px;
   border: 1px solid #006666;
   border-radius: 2px;
   float: right;
+  margin-top: -10px;
 }
 
 }
