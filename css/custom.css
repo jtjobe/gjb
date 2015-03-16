@@ -200,11 +200,14 @@ ol {
 }
 
 .tradition-header-inner-container {
-  width: 362px;
   padding: 0 1em;
   margin: auto;
   background-image: url('../imgs/crossword.jpg');
   background-repeat: repeat;
+}
+
+.header-ornament-left, .header-ornament-right {
+  display: none;
 }
 
 .tradition-line {
@@ -212,8 +215,10 @@ ol {
 }
 
 .tradition-top {
-  display: inline;
-  padding: 0 0.5em;
+  display: block;
+  margin: auto;
+  width: 100%;
+  text-align: center;
   line-height: 40px;
   font-family: "Bilbo Swash Caps";
 }
@@ -443,6 +448,10 @@ p.glyph {
   margin: auto;
   background-image: url('../imgs/crossword.jpg');
   background-repeat: repeat;
+}
+
+.header-ornament-right, .header-ornament-left {
+  display: inline-block;
 }
 
 .tradition-line {
@@ -774,6 +783,7 @@ div p, h2 {
 
 p.glyph {
   font-size: 1.8em;
+  margin: auto;
 }
 
 .contact-icon {
