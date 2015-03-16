@@ -136,6 +136,7 @@ li a:hover {
   font-size: 1.5em;
   width: 80%;
   max-width: 500px;
+  height: 53px;
   margin: auto;
   padding: 0.5em;
   margin: 1em auto;
@@ -184,8 +185,8 @@ ol {
   height: 300px;
 }
 
-.slideshow-pic {
-  width: 90%;
+.slideshow-pic-small {
+  width: 100%;
   margin: auto;
 }
 
@@ -225,6 +226,14 @@ ol {
 .header-ornament-right {
   vertical-align: top;
   margin-top: 10px;
+}
+
+.full-divider-line {
+  display: none;
+}
+
+.full-footer {
+  display: none;
 }
 
 
@@ -357,17 +366,23 @@ ol {
 
 .slideshow-big {
   display: block;
+  width: 700px;
+  height: 400px;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.slideshow-pic-big {
+  width: 700px;
+  height: 400px;
+  margin: auto;
 }
 
 .slide {
   display: block;
-  width: 100%;
-}
-
-.slideshow-pic {
-  width: 90%;
-  max-width: 700px;
-  margin: 1em;
+  width: 700px;
+  height: 400px;
 }
 
 .outline-pic {
@@ -574,12 +589,45 @@ ol {
   padding-left: 5em;
 }
 
+.slideshow-big {
+  display: block;
+  width: 700px;
+  height: 400px;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.slideshow-pic-big {
+  width: 700px;
+  height: 400px;
+  margin: auto;
+}
+
+.slide {
+  display: block;
+  width: 700px;
+  height: 400px;
+}
+
+
+.small-divider {
+  display: none;
+}
+
+.full-divider-line {
+  display: block;
+}
+
 .side-ornament {
   display: inline-block;
 }
 
 .center-ornament {
-  margin: auto;
+  position: relative;
+  left: 336px;
+  background-image: url('../imgs/crossword.jpg');
+  background-repeat: repeat;
 }
 
 .full-line {
@@ -608,7 +656,7 @@ div p, h2 {
 
 .top-text {
   display: inline-block;
-  margin-top: 1em;
+  margin-top: 10px;
   width: 350px;
 }
 
@@ -616,15 +664,15 @@ div p, h2 {
   width: 374px;
   border: 1px solid #006666;
   border-radius: 2px;
-  float: right;
-  margin-top: -7px;
+  margin-left: 73px;
+  vertical-align: top;
 }
 
 .middle-text {
   display: inline-block;
-  margin-top: 2em;
+  margin-top: 20px;
   width: 374px;
-  float: right;
+  margin-left: 111px;
 }
 
 .middle-photo {
@@ -632,11 +680,12 @@ div p, h2 {
   border: 1px solid #006666;
   border-radius: 2px;
   margin: auto;
+  vertical-align: top;
 }
 
 .bottom-text {
   display: inline-block;
-  margin-top: 1em;
+  margin-top: 10px;
   width: 350px;
 }
 
@@ -644,8 +693,69 @@ div p, h2 {
   width: 371px;
   border: 1px solid #006666;
   border-radius: 2px;
-  float: right;
-  margin-top: -10px;
+  vertical-align: top;
+  margin-left: 76px;
 }
+
+.mobile-footer {
+  display: none;
+}
+
+.full-footer {
+  display: block;
+  background-color: #006666;
+  padding-bottom: 1em;
+}
+
+.footer-row {
+  width: 800px;
+  margin: auto;
+}
+
+.footer-logo-col {
+  display: inline-block;
+  margin-right: 3em;
+}
+
+.footer-logo {
+  width: 170px;
+  position: relative;
+  top: -20px;
+}
+
+.footer-contact-info-col {
+  display: inline-block;
+  padding: 1em 2em;
+}
+
+.footer-contact-info-col p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+p.glyph {
+  font-size: 1.8em;
+}
+
+.contact-icon {
+  color: #fff;
+}
+
+.map {
+  position: relative;
+  top: 24px;
+  padding-bottom: 0;
+}
+
+.fine-print {
+  display: none;
+}
+
+.last-footer-row {
+  height: 1px;
+  padding: none;
+}
+
+
 
 }
