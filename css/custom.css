@@ -299,8 +299,23 @@ li a:hover {
   width: 100%;
 }
 
+.header {
+  display: inline-block;
+  font-weight: bold;
+  padding: 0 1em;
+  margin-bottom: 1em;
+}
 
+.header-container {
+  display: block;
+  width: 248px;
+  margin: auto;
+}
 
+.header-ornament {
+  position: relative;
+  top: -3px;
+}
 
 /***********************************************************************
 */
