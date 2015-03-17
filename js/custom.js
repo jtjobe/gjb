@@ -20,4 +20,3 @@ $(window).scroll(function() {
     $('.container').removeClass('container-sticky');
   }
 });
-
