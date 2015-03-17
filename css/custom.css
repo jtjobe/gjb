@@ -277,11 +277,10 @@ li a:hover {
 
 .gary-pic {
   display: block;
-  width: 50%;
+  width: 70%;
   max-width: 200px;
-  margin: auto;
-  border-radius: 2px;
-  padding: 1em;
+  border-radius: 10px;
+  margin: 1em auto;
 }
 
 .about-top-pic {
