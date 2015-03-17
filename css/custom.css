@@ -277,8 +277,11 @@ li a:hover {
 
 .gary-pic {
   display: block;
+  width: 50%;
+  max-width: 200px;
   margin: auto;
   border-radius: 2px;
+  padding: 1em;
 }
 
 .about-top-pic {
@@ -300,22 +303,9 @@ li a:hover {
 }
 
 .header {
-  display: inline-block;
   font-weight: bold;
-  padding: 0 1em;
-  margin-bottom: 1em;
 }
 
-.header-container {
-  display: block;
-  width: 248px;
-  margin: auto;
-}
-
-.header-ornament {
-  position: relative;
-  top: -3px;
-}
 
 /***********************************************************************
 */
